@@ -1,0 +1,4 @@
+Scripts here are designed to work in .. where folders "met" is located.
+
+results.R: scripts used to generate result figures and tables
+rrGraph.R: most operations on rrGraph (igraph) objects

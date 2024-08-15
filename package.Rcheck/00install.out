@@ -1,0 +1,9 @@
+* installing *source* package ‘rrgraph’ ...
+** R
+** data
+*** moving datasets to lazyload DB
+Error : cannot allocate vector of size 2.1 Mb
+ERROR: lazydata failed for package ‘rrgraph’
+* removing ‘/home/funfrocks/rrgraph-current/package.Rcheck/rrgraph’
+Warning in q("no", status = status, runLast = FALSE) :
+  system call failed: Cannot allocate memory

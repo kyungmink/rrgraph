@@ -1,0 +1,11 @@
+Package: rrgraph
+Type: Package
+Title: Relative risk graphs
+Version: 0.1
+Date: 2018-03-08
+Author: Kyungmin Ko [aut,cre]
+Maintainer: Kyungmin Ko <kaymin.ko@gmail.com>
+Description: Create and work with relative risk graphs.
+License: GPL-3
+LazyData: TRUE
+Depends: igraph

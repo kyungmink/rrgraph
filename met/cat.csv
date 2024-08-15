@@ -1,0 +1,23 @@
+"name","kcd","desc","col","nui","num"
+"I","A00-B99","Certain infectious and parasitic diseases","#FF0000",0,0
+"II","C00-D48","Neoplasms","#FF4600",0,0
+"III","D50-D89","Diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism","#FF8B00",0,0
+"IV","E00-E90","Endocrine, nutritional and metabolic diseases","#FFD100",0,0
+"V","F00-F99","Mental and behavioural disorders","#E8FF00",0,0
+"VI","G00-G99","Diseases of the nervous system","#A2FF00",0,0
+"VII","H00-H59","Diseases of the eye and adnexa","#5DFF00",0,0
+"VIII","H60-H95","Diseases of the ear and mastoid process ","#17FF00",0,0
+"IX","I00-I99","Diseases of the circulatory system","#00FF2E",0,0
+"X","J00-J99","Diseases of the respiratory system","#00FF74",0,0
+"XI","K00-K93","Diseases of the digestive system","#00FFB9",0,0
+"XII","L00-L99","Diseases of the skin and subcutaneous tissue","#00FFFF",0,0
+"XIII","M00-M99","Diseases of the musculoskeletal system and connective tissue","#00B9FF",0,0
+"XIV","N00-N99","Diseases of the genitourinary system","#0074FF",0,0
+"XV","O00-O99","Pregnancy, childbirth and the puerperium ","#002EFF",0,0
+"XVI","P00-P96","Certain conditions originating in the perinatal period","#1700FF",0,0
+"XVII","Q00-Q99","Congenital malformations, deformations and chromosomal abnormalities","#5D00FF",0,0
+"XVIII","R00-R99","Symptoms, signs and abnormal clinical and laboratory findings, NEC","#A200FF",0,0
+"XIX","S00-T98","Injury, poisoning and certain other consequences of external causes","#E800FF",0,0
+"XX","V01-Y98","External causes of morbidity and mortality","#FF00D1",0,0
+"XXI","Z00-Z99","Factors influencing health status and contact with health services","#FF008B",0,0
+"XXII","U00-U99","Codes for special purposes","#FF0046",0,0

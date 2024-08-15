@@ -1,0 +1,17 @@
+datCom <- read.csv("pValue.csv")
+datNod <- read.delim("nodes.cys.tsv", quote = "")
+library(igraph)
+graCom <- graph_from_data_frame(datCom)
+E(graCom)$weight <- E(graCom)$RR
+V(graCom)$x <- strength(graCom, mode = "out")
+V(graCom)$y <- strength(graCom, mode = "in")
+graCom <- graCom - E(graCom)[is.na(E(graCom)$weight)]
+V(graCom)$x <- strength(graCom, mode = "out")
+V(graCom)$y <- strength(graCom, mode = "in")
+graSta <- graph_from_data_frame(subset(datCom, RR > 4 & pFdr < 0.001))
+graCom2 <- induced_subgraph(graCom, V(graCom)$name %in% V(graSta)$name)
+tiff(filename = "manlayout.tiff", width = 960, height = 960)
+plot(graCom2, layout = layout_nicely, vertex.label = NA, vertex.size = 2, edge.arrow.size = 0.5)
+dev.off()
+component_distribution(graCom2)
+diversity(graCom2)
